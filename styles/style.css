@@ -125,14 +125,17 @@ h1 span {
     color: var(--soft-violet);
 }
 
+/* STATS */
+
 .stats-container {
-    margin-top: 45px;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
 }
 
 @media only screen and (min-width: 1025px) {
     .stats-container {
+        width: 80%;
         flex-direction: row;
         justify-content: space-between;
     }
